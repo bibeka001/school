@@ -47,6 +47,7 @@ const StudentTable = () => {
                 <button onClick={() => deleteStudent(student.id)}>
                   Delete
                 </button>
+                console.log("Hi");
               </td>
             </tr>
           ))}
